@@ -2,7 +2,6 @@
 """
 Spyder Editor
 
-This is a temporary script file.
 """
 import cv2
 
@@ -21,7 +20,7 @@ def detect(grey, orig_img):
     
     return orig_img
 #video
-
+''' capturing video from camera. '0' for webcam '1' for others '''
 video_capture = cv2.VideoCapture(0)
 while True:
     _, orig_img = video_capture.read()
